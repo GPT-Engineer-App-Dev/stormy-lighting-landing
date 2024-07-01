@@ -1,4 +1,4 @@
-import { CircleUser, Menu, Package2, Search } from "lucide-react"
+import { CircleUser, Menu, CloudLightning, Search } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import {
@@ -31,8 +31,8 @@ function SharedLayout() {
             href="#"
             className="flex items-center gap-2 text-lg font-semibold md:text-base"
           >
-            <Package2 className="h-6 w-6" />
-            <span className="sr-only">Acme Inc</span>
+            <CloudLightning className="h-6 w-6" />
+            <span className="sr-only">StormWatch</span>
           </a>
           <a
             href="#"
@@ -58,8 +58,8 @@ function SharedLayout() {
                 href="#"
                 className="flex items-center gap-2 text-lg font-semibold"
               >
-                <Package2 className="h-6 w-6" />
-                <span className="sr-only">Acme Inc</span>
+                <CloudLightning className="h-6 w-6" />
+                <span className="sr-only">StormWatch</span>
               </a>
               <a
                 href="#"
